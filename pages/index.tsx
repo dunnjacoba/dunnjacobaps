@@ -3,6 +3,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import { GetStaticProps } from 'next'
+import Link from "next/link"
 
 export default function Home({
   allPostsData
@@ -21,15 +22,15 @@ export default function Home({
       <section className={utilStyles.headingMd}>
       </section>
       <div className={utilStyles.grid}>
-        <a href="blogs/blogs-landing" className={utilStyles.card}>         
+        <Link href="blogs/blogs-landing" className={utilStyles.card}>         
             <h2>Blogs</h2>          
-        </a>
-        <a href="projects/project-landing" className={utilStyles.card}>         
+        </Link>
+        <Link href="projects/project-landing" className={utilStyles.card}>         
             <h2>Projects</h2>         
-        </a>
-        <a href="resume/cv" className={utilStyles.card}>         
+        </Link>
+        <Link href="resume/cv" className={utilStyles.card}>         
             <h2>Resume</h2>         
-        </a>
+        </Link>
       </div>
     </Layout>
   )
