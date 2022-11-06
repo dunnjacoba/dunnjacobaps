@@ -24,7 +24,7 @@ export default function Kommu() {
           <strong>React.js</strong>, utilizing <strong>JavaScript</strong>, and{" "}
           <strong>ASP.Net</strong>, leveraging the <strong>SignalR</strong>{" "}
           library to route messages via established websocket connections
-          through the middle tier then to it's intented recipient.
+          through the middle tier then to it&lsquot;s intented recipient.
         </p>
         <h3>Dynamic Event Form</h3>
         <Image
@@ -38,9 +38,9 @@ export default function Kommu() {
           <strong>Formik</strong> and <strong>CKEditor</strong>, the seemingly
           paginated form was for users and admin who wished to create an event
           entry to be displayed for all users to see. The input fields on the
-          form would all update the state object upon clicking the "Next"
-          button, and just before submission the user was given a preview of the
-          graphical representation on the site. Each{" "}
+          form would all update the state object upon clicking the
+          &quot;Next&quot; button, and just before submission the user was given
+          a preview of the graphical representation on the site. Each{" "}
           <code>
             <select>
               <option>Dropdown</option>
