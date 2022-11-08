@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
+import MyPhoto from "./image";
 
 
 const name = "Jacob Dunn";
@@ -86,10 +87,10 @@ export default function Layout({
         <Link href="/about">
           About
         </Link>
+          <MyPhoto />
         <Link href="http://linkfree.eddiehub.io/dunnjacoba" target="_blank">
           Contact
-        </Link>
-    
+        </Link>        
       </div>
     </>
   );
