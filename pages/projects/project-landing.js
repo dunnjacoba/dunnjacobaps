@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../../components/layout";
 import utilStyles from "../../styles/utils.module.css";
+import Link from "next/link";
 
 export default function ProjectLanding() {
   return (
@@ -11,9 +12,9 @@ export default function ProjectLanding() {
       </Head>
       <h1>Projects</h1>
       <div className={utilStyles.grid}>
-        <a href="project-kommu" className={utilStyles.card}>
+        <Link href="project-kommu" className={utilStyles.card}>
           <h2>Kommu</h2>
-        </a>
+        </Link>
       </div>
     </Layout>
   );

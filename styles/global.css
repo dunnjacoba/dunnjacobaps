@@ -1,13 +1,15 @@
 html,
 body { 
   background-color: rgb(0, 0, 0);
-  background-image: radial-gradient(rgba(16, 13, 185, 0.342),rgba(0, 0, 0, 0.87));
-    padding: 0;
-    margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.6;
-    font-size: 18px;
-    color: #fafafa;
+  background-image: url("/images/httpsdunnjacob.vercel.app.png");
+  background-size:contain;
+  background-repeat: no-repeat;  
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #fafafa;
 }
 
 * {

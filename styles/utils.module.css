@@ -52,7 +52,8 @@
 }
 
 .lightText {
-  color: rgb(156, 156, 156);
+  color: rgb(255, 255, 255);
+  border:2px, #000000;
 }
 .container {
     min-height: 100vh;
@@ -123,7 +124,7 @@
   }
   
   .code {
-    background: #fafafa;
+    background: #000000;
     border-radius: 5px;
     padding: 0.75rem;
     font-size: 1.1rem;
@@ -141,13 +142,13 @@
   }
   
   .card {
-    color: #fafafa;
+    color: #020202;
     margin: 1rem;
     padding: 1.5rem;
     text-align: center;
     color: inherit;
     text-decoration: none;
-    border: 1px solid #ffffff;
+    border: 4px solid #09aefa;
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
     width: 45%;
@@ -156,14 +157,14 @@
   .card:hover,
   .card:focus,
   .card:active {
-    color: #ffffff;
-    border-color: #6d6b6b;
+    color: #09aefa;
+    border-color: #000000;
   }
   
   .card h2 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
-    color: #fafafa;
+    color: #09aefa;
   }
   
   .card p {
