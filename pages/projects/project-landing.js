@@ -8,7 +8,7 @@ export default function ProjectLanding() {
     <Layout>
       <Head>
         <title>{siteTitle}</title>
-        <a rel="icon" href="/favicon.ico" />
+        <Link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Projects</h1>
       <div className={utilStyles.grid}>
