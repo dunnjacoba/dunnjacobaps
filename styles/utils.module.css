@@ -26,7 +26,7 @@
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
-  color: #fafafa;
+  color: #ffffff;
 }
 
 .borderCircle {
@@ -52,7 +52,7 @@
 }
 
 .lightText {
-  color: rgb(255, 255, 255);
+  color: rgb(75, 70, 70);
   border:2px, #000000;
 }
 .container {
@@ -72,7 +72,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fafafa;
+    color: #ffffff;
   }
   
   .footer { 
@@ -109,13 +109,13 @@
     margin: 0;
     line-height: 1.15;
     font-size: 4rem;
-    color: #fafafa;
+    color: #ffffff;
   }
   
   .title,
   .description {
     text-align: center;
-    color: #fafafa;
+    color: #ffffff;
   }
   
   .description {
@@ -148,23 +148,26 @@
     text-align: center;
     color: inherit;
     text-decoration: none;
-    border: 4px solid #09aefa;
+    border: 4px solid #ffffff;
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
     width: 45%;
+    
   }
   
   .card:hover,
   .card:focus,
   .card:active {
-    color: #09aefa;
-    border-color: #000000;
+    color: #0e366b;
+    border-color: #0857ce;
+    transition: all .4s ease-in-out; 
+    transform: scale(1.5); 
   }
   
   .card h2 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
-    color: #09aefa;
+    color: #ffffff;
   }
   
   .card p {
@@ -172,7 +175,7 @@
     font-size: 1.25rem;
     line-height: 1.5;
   }
-  
+
   .logo {
     height: 1em;
     margin-left: 0.5rem;
