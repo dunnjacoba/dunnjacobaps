@@ -1,9 +1,16 @@
 html,
+
+html {
+background-color: rgba(0, 0, 0, 1); 
+background-image: url("/images/sitebanner.jpg");
+background-size: 100vw;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: absolute;
+}
+
+
 body { 
-  background-color: rgba(0, 0, 0, 1); 
-  background-image: url("/images/sitebanner.jpg");
-  background-size:100vmax;
-  background-repeat: no-repeat; 
   opacity: 0.9;
   position: relative;
   margin: 0;
@@ -49,7 +56,7 @@ label {
 
 input {
   display: table;
-  width: 100%;
+  width: 100%; 
   padding: 0.5rem;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 0.25rem;
